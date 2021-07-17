@@ -16,7 +16,7 @@ function call_api(a, category) {
   fetch(`https://api.apiclub.in/api/v1/${category}/${a}`, {
     method: "POST",
     headers: {
-      "API-Key": "",
+      "API-Key": "7ace3f156223c6b1b2d74b037cf9b286",
     },
   })
     .then((response) => {
